@@ -39,16 +39,17 @@ export default function ModernHero() {
       <div className="grid min-h-[650px] grid-cols-1 md:grid-cols-[1.1fr_0.9fr]">
         <div className="flex flex-col justify-center px-10 py-20 md:px-20">
           <p className="mb-6 text-xs font-semibold uppercase tracking-[0.35em] text-[#68aeb7]">
-            Modern Counsel. Clear Strategy.
+            Private Counsel. Strategic Protection.
           </p>
 
           <h1 className="max-w-2xl text-6xl font-light leading-[1] tracking-[-0.05em] md:text-8xl">
-            Legal guidance built around clarity.
+            Protecting what you've built. Securing what comes next.
           </h1>
 
           <p className="mt-8 max-w-xl text-lg leading-8 text-[#555555]">
-            Ashwood Legal helps individuals and businesses navigate complex legal
-            matters with a precise, modern, and client-centered approach.
+            Ashwood Legal advises families, founders, and private clients on
+            complex wealth, business, and personal legal matters requiring discretion
+            and strategic judgement. 
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -56,7 +57,7 @@ export default function ModernHero() {
               href="#contact"
               className="inline-flex items-center justify-center bg-[#68aeb7] px-7 py-4 text-xs font-semibold uppercase tracking-[0.2em] text-white"
             >
-              Request Consultation
+              Schedule a Private Consultation
             </a>
 
             <a

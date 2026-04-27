@@ -1,30 +1,27 @@
 const approachItems = [
   {
     number: "01",
-    title: "Understand the matter",
+    title: "Assess the full picture",
     description:
-      "We begin by identifying your goals, risks, timeline, and the legal decisions that matter most.",
+      "We begin by understanding the assets, relationships, business interests, and risks surrounding the matter.",
   },
   {
     number: "02",
-    title: "Build the strategy",
+    title: "Protect privacy and leverage",
     description:
-      "We create a clear legal plan with practical next steps, expected milestones, and communication expectations.",
+      "We develop a strategy designed to preserve discretion, reduce exposure, and support long-term decision-making.",
   },
   {
     number: "03",
-    title: "Move with precision",
+    title: "Execute with judgment",
     description:
-      "We execute with discipline, keeping your matter organized, documented, and aligned with your desired outcome.",
+      "We move carefully and deliberately, balancing legal action with reputation, timing, and practical consequences.",
   },
 ];
 
 export default function ModernApproach() {
   return (
-    <section
-      id="approach"
-      className="bg-white px-8 py-24 md:px-20"
-    >
+    <section id="approach" className="bg-white px-8 py-24 md:px-20">
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-16 md:grid-cols-[0.9fr_1.1fr]">
           <div>
@@ -33,13 +30,13 @@ export default function ModernApproach() {
             </p>
 
             <h2 className="max-w-xl text-5xl font-light leading-[1] tracking-[-0.05em] md:text-7xl">
-              A calmer process for complex legal decisions.
+              Discreet strategy for matters that cannot be handled casually.
             </h2>
 
             <p className="mt-8 max-w-xl text-lg leading-8 text-[#555555]">
-              Clients come to Ashwood Legal when they need more than paperwork.
-              They need structure, communication, and a strategy they can
-              understand.
+              Private clients often face legal decisions where money, family,
+              reputation, and control intersect. Our process is built around
+              preparation, discretion, and strategic judgment.
             </p>
           </div>
 

@@ -6,16 +6,17 @@ export default function ModernContactFooter() {
       <section className="grid grid-cols-1 border-b border-[#d8d8d6] md:grid-cols-[1.15fr_0.85fr]">
         <div className="px-8 py-20 md:px-20">
           <p className="mb-6 text-xs font-semibold uppercase tracking-[0.35em] text-[#68aeb7]">
-            Start Here
+            Private Consultation
           </p>
 
           <h2 className="max-w-3xl text-5xl font-light leading-[1] tracking-[-0.05em] md:text-7xl">
-            Get clarity before your next legal decision.
+            Discuss a sensitive matter with discretion.
           </h2>
 
           <p className="mt-8 max-w-2xl text-lg leading-8 text-[#555555]">
-            Schedule a consultation to discuss your matter, understand your
-            options, and decide the right path forward.
+            Schedule a private consultation to discuss your matter, evaluate your
+            options, and determine the right path forward with confidentiality
+            and strategic judgement.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -23,7 +24,7 @@ export default function ModernContactFooter() {
               href="mailto:intake@ashwoodlegal.com"
               className="inline-flex items-center justify-center bg-[#68aeb7] px-7 py-4 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-[#4f9aa3]"
             >
-              Request Consultation
+              Schedule Private Consultation
             </a>
 
             <Link

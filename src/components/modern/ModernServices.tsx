@@ -1,38 +1,41 @@
 const services = [
   {
-    title: "Family Law",
+    title: "Wealth Preservation & Trusts",
     description:
-      "Clear legal support for divorce, custody, support, and sensitive family matters.",
+      "Sophisticated planning for families seeking to protect assets, preserve privacy, and prepare for generational transitions.",
   },
   {
-    title: "Civil Litigation",
+    title: "High-Asset Family Matters",
     description:
-      "Strategic representation for disputes involving individuals, businesses, and contracts.",
+      "Discreet counsel for divorce, custody, support, and marital agreements involving complex financial interests.",
   },
   {
-    title: "Business Counsel",
+    title: "Business Succession",
     description:
-      "Practical legal guidance for owners, professionals, and growing organizations.",
+      "Guidance for founders, owners, and family enterprises navigating ownership transitions and continuity planning.",
   },
   {
-    title: "Estate Planning",
+    title: "Private Dispute Resolution",
     description:
-      "Thoughtful planning for wills, trusts, asset protection, and long-term security.",
+      "Strategic representation in sensitive disputes where reputation, confidentiality, and long-term outcomes matter.",
   },
 ];
 
 export default function ModernServices() {
   return (
-    <section id="services" className="border-y border-[#d8d8d6] bg-[#f7f8f8] px-8 py-24 md:px-20">
+    <section
+      id="services"
+      className="border-y border-[#d8d8d6] bg-[#f7f8f8] px-8 py-24 md:px-20"
+    >
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-12 md:grid-cols-[0.8fr_1.2fr]">
           <div>
             <p className="mb-5 text-xs font-semibold uppercase tracking-[0.35em] text-[#68aeb7]">
-              Services
+              Private Client Services
             </p>
 
             <h2 className="max-w-xl text-5xl font-light leading-[1] tracking-[-0.05em] md:text-7xl">
-              Legal support designed around your next move.
+              Counsel for complex personal, financial, and business decisions.
             </h2>
           </div>
 
@@ -54,7 +57,7 @@ export default function ModernServices() {
                   href="#contact"
                   className="mt-8 inline-flex text-xs font-semibold uppercase tracking-[0.22em] text-[#68aeb7]"
                 >
-                  Learn More →
+                  Discuss Your Matter →
                 </a>
               </article>
             ))}
