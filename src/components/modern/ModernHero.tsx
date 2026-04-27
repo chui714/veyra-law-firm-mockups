@@ -71,7 +71,7 @@ export default function ModernHero() {
 
         <div className="relative m-10 min-h-[500px] overflow-hidden bg-[#e5e5e3]">
           <Image
-          src="/images/modern/modern-hero.jpg"
+          src="/images/modern/modern-hero.webp"
           alt="Modern attorney portrait"
           fill
           priority

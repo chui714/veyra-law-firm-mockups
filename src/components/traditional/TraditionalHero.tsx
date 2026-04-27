@@ -76,7 +76,7 @@ export default function TraditionalHero() {
 
         <div className="relative min-h-[500px] bg-[#d8d8d6]">
           <Image
-            src="/images/traditional/traditional-hero.jpg"
+            src="/images/traditional/traditional-hero.webp"
             alt="Black and white legal office image"
             fill
             priority
