@@ -3,6 +3,7 @@ import TraditionalHero from "./TraditionalHero";
 import CredibilityStrip from "./CredibilityStrip";
 import NewsResultsStrip from "./NewsResultsStrip";
 import PracticeAreas from "./PracticeAreas";
+import TraditionalMonogram from "./TraditionalMonogram";
 import QuoteSection from "./QuoteSection";
 import ContactFooter from "./ContactFooter";
 
@@ -13,6 +14,7 @@ export default function TraditionalHome() {
       <CredibilityStrip />
       <NewsResultsStrip />
       <PracticeAreas />
+      <TraditionalMonogram />
       <QuoteSection />
       <ContactFooter />
 
